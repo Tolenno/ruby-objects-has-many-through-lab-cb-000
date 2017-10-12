@@ -8,10 +8,10 @@ class Artist
 
   def add_song(song)
     @songs << song
-    
+
   end
 
   def genres
-
+    @songs.collect {|song| song.genre}
   end
 end
