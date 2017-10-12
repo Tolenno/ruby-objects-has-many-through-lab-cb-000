@@ -12,6 +12,6 @@ class Patient
   end
 
   def appointments
-
+    @appointments
   end
 end
