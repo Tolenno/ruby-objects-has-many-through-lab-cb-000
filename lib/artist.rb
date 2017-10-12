@@ -14,4 +14,8 @@ class Artist
   def genres
     @songs.collect {|song| song.genre}
   end
+
+  def songs
+
+  end
 end
