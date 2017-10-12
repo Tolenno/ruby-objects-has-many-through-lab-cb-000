@@ -3,5 +3,6 @@ class appointment
 
   def initialize(date)
     @date = date
+    @doctor = doctor
   end
 end
