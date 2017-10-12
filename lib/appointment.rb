@@ -1,5 +1,7 @@
 class appointment
-  def initialize(date)
+  attr_reader :date
 
+  def initialize(date)
+    
   end
 end
